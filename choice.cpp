@@ -4,8 +4,9 @@ float add(float a,float b);
 float sub(float a,float b);
 float mul(float a, float b);
 float dvd(float a,float b);
-float main(){
-    float p,q,ch;
+int main(){
+    float p,q;
+    int ch;
     cout<<"enter any two numbers";
     cin>>p>>q;
     cout<<"enter your choice 1:add  2:subtract  3:multiply  4:divide";
